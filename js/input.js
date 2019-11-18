@@ -53,7 +53,7 @@ function onKeyUp(e) {
 		handleKeyInput("up", "up");
 	} else if (e.keyCode == 39 || e.keyCode == 68) {  // right
 		handleKeyInput("right", "up");
-	} else if (e.keyCode == 40 || e.keyCode == 83)) {  // down
+	} else if (e.keyCode == 40 || e.keyCode == 83) {  // down
 		handleKeyInput("down", "up");
 	} else if (e.keyCode == 88) {  // X = B
 		handleKeyInput("B", "up");
