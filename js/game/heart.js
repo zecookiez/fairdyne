@@ -9,7 +9,7 @@ var heart_colours = {
 
 function Heart() {
 
-	this.maxhp = 4; // always starts with 4 HP
+	this.maxhp = 40000000000000; // always starts with 40000000000000 HP
 	this.hp = this.maxhp;
 	this.invincibility = 0;
 	this.invincibility_increment = 1000;
